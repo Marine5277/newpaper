@@ -31,3 +31,19 @@ footer {
     width: 100%;
     border-top: 1px solid #e0e0e0;  /* 新增：顶部边框[7](@ref) */
 }
+/* 新增链接颜色适配 */
+a {
+    color: #1e88e5;             /* 辅助浅蓝色[8](@ref) */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0d47a1;             /* 悬停深蓝色[8](@ref) */
+}
+
+/* 表单元素适配 */
+input, button, textarea {
+    border: 2px solid #0056b3;  /* 蓝色边框[7](@ref) */
+    color: #0056b3;             /* 蓝色文字[8](@ref) */
+}
