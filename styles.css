@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #ffffff;  /* 新增：白色背景[7](@ref) */
+    color: #0056b3;            /* 新增：标准蓝色文字[8](@ref) */
 }
 
 header {
@@ -16,14 +18,16 @@ main {
     height: calc(100vh - 160px);
     padding: 20px;
     box-sizing: border-box;
+    background-color: #ffffff;  /* 确保内容区白色[2](@ref) */
 }
 
 footer {
-    background: #34495e;
-    color: white;
+    background: #ffffff;        /* 原深蓝改为白色[6](@ref) */
+    color: #0056b3;             /* 原白色改为蓝色[8](@ref) */
     text-align: center;
     padding: 15px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    border-top: 1px solid #e0e0e0;  /* 新增：顶部边框[7](@ref) */
 }
