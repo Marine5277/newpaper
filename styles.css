@@ -25,7 +25,7 @@ footer {
     background: #ffffff;        /* 原深蓝改为白色[6](@ref) */
     color: #0056b3;             /* 原白色改为蓝色[8](@ref) */
     text-align: center;
-    padding: 15px;
+    padding: 5px;
     position: fixed;
     bottom: 0;
     width: 100%;
