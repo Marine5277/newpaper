@@ -16,6 +16,7 @@ header {
 
 main {
     padding: 20px;
+    padding-bottom: 60px; /* 根据 footer 的高度调整 */
     box-sizing: border-box;
     background-color: #ffffff;  /* 确保内容区白色[2](@ref) */
 }
@@ -29,7 +30,6 @@ footer {
     bottom: 0;
     width: 100%;
     border-top: 1px solid #e0e0e0;  /* 新增：顶部边框[7](@ref) */
-    z-index: 1; /* 确保 footer 在最上层 */
 }
 
 /* 新增链接颜色适配 */
